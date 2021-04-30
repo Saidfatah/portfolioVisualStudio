@@ -1,0 +1,54 @@
+.ab-root {
+  display: flex;
+}
+
+.ab-content {
+  padding: 2%;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content:start;
+  align-items: center;
+}
+
+.ab-content h2 {
+  font-size: 2rem;
+}
+
+.ab-content h3 {
+  color: #d19a66;
+  text-transform: uppercase;
+}
+
+.ab-content p {
+  line-height: 2;
+  font-size: 1.3rem;
+}
+
+.about-image-container  {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 100%;
+
+}
+.about-image-container img {
+  width: 200px;
+}
+
+.resume {
+  font-size: 1.2rem;
+  color: #d19a66;
+}
+
+@media (max-width: 950px) {
+  .ab-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .ab-content p {
+    font-size: 0.7rem;
+  }
+}
