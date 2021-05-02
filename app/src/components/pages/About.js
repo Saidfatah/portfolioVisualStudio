@@ -24,9 +24,9 @@ const About = () => {
           and programs since I was 16 and have a strong passion to create high
           quality applications.
         </p>
-        <a href={resume} alt="resume" className="resume">
+        {/* <a href={resume} alt="resume" className="resume">
           Resume
-        </a>
+        </a> */}
       </div>
     </div>
   );
