@@ -1,5 +1,6 @@
 .ab-root {
   display: flex;
+  overflow: hidden;
 }
 
 .ab-content {
