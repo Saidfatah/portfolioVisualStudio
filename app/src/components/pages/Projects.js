@@ -158,6 +158,72 @@ const Projects = () => {
         </div>
       </div>
   }
+  const Movies_React_Native_App=()=>{
+    const content=[
+      {
+        img:"https://i.imgur.com/rcJ6bva.png",
+        title:"Home screen",
+      },
+      {
+        img:"https://i.imgur.com/lQZEyFT.png",
+        title:"Actor screen ",
+      },
+      {
+        img:"https://i.imgur.com/kbYNEGM.png",
+        title:"Movie screen ",
+      },
+      {
+        img:"https://i.imgur.com/qLSE9Xr.png",
+        title:"Movie screen ",
+      },
+      {
+        img:"https://i.imgur.com/QQhGK3B.png",
+        title:"Login screen",
+      },
+      {
+        img:"https://i.imgur.com/ezzpguB.png",
+        title:"Register screen invalid fields",
+      },
+      {
+        img:"https://i.imgur.com/oRg6Frj.png",
+        title:"Register screen valid fields",
+      },
+      {
+        img:"https://i.imgur.com/fNpwWSU.png",
+        title:"Login screen  ",
+      },
+      {
+        img:"https://i.imgur.com/CGNORNX.png",
+        title:"profile  screen  ",
+      }
+    ]
+
+        return  <div className="project">
+        <h2>Movies app </h2>
+        <div className="image-container">
+           <ImageSlider content={content} />
+        </div>
+        <h3>Overview</h3>
+        <hr />
+        <p>
+          built his app in 4 days it consumes themoviedb API 
+        </p>
+
+        <h3>Technologies</h3>
+        <hr />
+        <p>
+          React, React Native, Firebase, Redux , themoviedb API
+        </p>
+        <div className="links">
+          <a
+            href="https://github.com/Saidfatah/Movies-app/tree/main"
+            target="__blank"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+  }
 
 
   const Aafiya_Mafya_Merch_Store=()=>{
@@ -165,7 +231,7 @@ const Projects = () => {
      <h2>Afiya mafiya merch store</h2>
      <div className="image-container">
        <img
-         src={"https://i.imgur.com/24fFBTF.png"}
+         src={"https://i.imgur.com/R87YpsN.png"}
          alt="afyaMafyaScreenShoot"
        />
      </div>
@@ -227,86 +293,19 @@ const Projects = () => {
    </div>
   }
   
-  // const ElqouentDo=()=>{
-  //    return  <div className="project">
-  //    <h2>ElequonteDo</h2>
-  //    <div className="image-container">
-  //      <img
-  //        src="https://i.gyazo.com/de8900b4bb8fe6585202aa9a80eb19b4.png"
-  //        alt="Tweeter"
-  //      />
-  //    </div>
-  //    <h3>Overview</h3>
-  //    <hr />
-  //    <p>
-  //      a project mangment App based on todo lists , the project has a progress bar and each todo list has aprogress bar
-  //      when user toggles items the progress updates
-  //    </p>
-
-  //    <h3>Technologies</h3>
-  //    <hr />
-  //    <p>Backend Stack: Bcrypt, JWT, Express, MongoDB, Mongoose </p>
-  //    <p>Frontend Stack: React, MaterialUI, Redux</p>
-  //    <div className="links">
-  //      <a
-  //        href="https://github.com/NateTheDev1/quick-note-app"
-  //        target="__blank"
-  //      >
-  //        GitHub
-  //      </a>
-  //      <a href="https://quick-note.vercel.app/" target="__blank">
-  //        Live Demo
-  //      </a>
-  //    </div>
-  //  </div>
-  // }
-  // const Quotes=()=>{
-  //    return  <div className="project">
-  //    <h2>Qoutos </h2>
-  //    <div className="image-container">
-  //      <img
-  //        src="https://i.gyazo.com/de8900b4bb8fe6585202aa9a80eb19b4.png"
-  //        alt="Tweeter"
-  //      />
-  //    </div>
-  //    <h3>Overview</h3>
-  //    <hr />
-  //    <p>  a social media for sharing quotes</p>
-
-  //    <h3>Technologies</h3>
-  //    <hr />
-  //    <p>Backend Stack: Firebase, express,algolia </p>
-  //    <p>Frontend Stack: React, Rematch(Redux abstraction layer) </p>
-  //    <div className="links">
-  //      <a
-  //        href="https://github.com/NateTheDev1/quick-note-app"
-  //        target="__blank"
-  //      >
-  //        GitHub
-  //      </a>
-  //      <a href="https://quick-note.vercel.app/" target="__blank">
-  //        Live Demo
-  //      </a>
-  //    </div>
-  //  </div>
-  // }
-
+  
   return (
     <div className="pj-root">
-      <CodeBar rowAmount={120} />
+      <CodeBar rowAmount={210} />
       <div className="pg-content">
         <h1>Professional Work</h1>
         <SMARDIS_React_Native_App />
         
         <h1>Projects</h1>
         <Origami_React_Native_App />
+        <Movies_React_Native_App />
         <Tweeter />
         <Aafiya_Mafya_Merch_Store />
-        {/* <Quotes />
-        <ElqouentDo /> */}
- 
-       
-        
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import CodeBar from "../CodeBar";
 import "../../css/About.css";
 // import resume from "../../images/cur_resume.pdf";
-import myImage from "../../images/me.jpg";
+import myImage from "../../images/me.png";
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
           about designing, developing, and shipping production quality
           technology. I strive to bring ideas to life, let me work with you and
           let us see what we can make! I am based out of Ouarzazate, Morroco and
-          yes, it is hot. I have been programming and designing games, apps,
+          yes, it is hot here. I have been programming and designing games, apps,
           and programs since I was 16 and have a strong passion to create high
           quality applications.
         </p>

@@ -16,7 +16,7 @@ const ApplicationWindow = () => {
       transition={{ ease: "easeIn", duration: 0.3 }}
       animate={{
         width: ["0vw", "85vw"],
-        height: ["0vh", "80vh"],
+        height: ["0vh", "85vh"],
       }}
     >
       <StatusBar />
