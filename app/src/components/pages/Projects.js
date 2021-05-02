@@ -158,36 +158,7 @@ const Projects = () => {
         </div>
       </div>
   }
-  const Untagled_Cables=()=>{
-        return   <div className="project">
-        <h2>Untangled Cables (Freelance) </h2>
-        <div className="image-container">
-          <img
-            src="https://i.gyazo.com/33af81377252c4440803c7ea75b4e536.png"
-            alt=""
-          />
-        </div>
-        <h3>Overview</h3>
-        <hr />
-        <p>
-          An online shop built for a client selling mouse and keyboard cables.
-          It uses stripe for customer data and payments. It also has a fully
-          functioning CMS and Admin Dashboard.
-        </p>
 
-        <h3>Technologies</h3>
-        <hr />
-        <p>
-          React, Apollo Client, Apollo Server, MySQL, Express, Node,
-          Typescript, Material-UI, CSS, Stripe
-        </p>
-        <div className="links">
-          <a href="https://untangledcables.com" target="__blank">
-            Live Demo
-          </a>
-        </div>
-      </div>
-  }
 
   const Aafiya_Mafya_Merch_Store=()=>{
      return <div className="project">
@@ -256,69 +227,69 @@ const Projects = () => {
    </div>
   }
   
-  const ElqouentDo=()=>{
-     return  <div className="project">
-     <h2>ElequonteDo</h2>
-     <div className="image-container">
-       <img
-         src="https://i.gyazo.com/de8900b4bb8fe6585202aa9a80eb19b4.png"
-         alt="Tweeter"
-       />
-     </div>
-     <h3>Overview</h3>
-     <hr />
-     <p>
-       a project mangment App based on todo lists , the project has a progress bar and each todo list has aprogress bar
-       when user toggles items the progress updates
-     </p>
+  // const ElqouentDo=()=>{
+  //    return  <div className="project">
+  //    <h2>ElequonteDo</h2>
+  //    <div className="image-container">
+  //      <img
+  //        src="https://i.gyazo.com/de8900b4bb8fe6585202aa9a80eb19b4.png"
+  //        alt="Tweeter"
+  //      />
+  //    </div>
+  //    <h3>Overview</h3>
+  //    <hr />
+  //    <p>
+  //      a project mangment App based on todo lists , the project has a progress bar and each todo list has aprogress bar
+  //      when user toggles items the progress updates
+  //    </p>
 
-     <h3>Technologies</h3>
-     <hr />
-     <p>Backend Stack: Bcrypt, JWT, Express, MongoDB, Mongoose </p>
-     <p>Frontend Stack: React, MaterialUI, Redux</p>
-     <div className="links">
-       <a
-         href="https://github.com/NateTheDev1/quick-note-app"
-         target="__blank"
-       >
-         GitHub
-       </a>
-       <a href="https://quick-note.vercel.app/" target="__blank">
-         Live Demo
-       </a>
-     </div>
-   </div>
-  }
-  const Quotes=()=>{
-     return  <div className="project">
-     <h2>Qoutos </h2>
-     <div className="image-container">
-       <img
-         src="https://i.gyazo.com/de8900b4bb8fe6585202aa9a80eb19b4.png"
-         alt="Tweeter"
-       />
-     </div>
-     <h3>Overview</h3>
-     <hr />
-     <p>  a social media for sharing quotes</p>
+  //    <h3>Technologies</h3>
+  //    <hr />
+  //    <p>Backend Stack: Bcrypt, JWT, Express, MongoDB, Mongoose </p>
+  //    <p>Frontend Stack: React, MaterialUI, Redux</p>
+  //    <div className="links">
+  //      <a
+  //        href="https://github.com/NateTheDev1/quick-note-app"
+  //        target="__blank"
+  //      >
+  //        GitHub
+  //      </a>
+  //      <a href="https://quick-note.vercel.app/" target="__blank">
+  //        Live Demo
+  //      </a>
+  //    </div>
+  //  </div>
+  // }
+  // const Quotes=()=>{
+  //    return  <div className="project">
+  //    <h2>Qoutos </h2>
+  //    <div className="image-container">
+  //      <img
+  //        src="https://i.gyazo.com/de8900b4bb8fe6585202aa9a80eb19b4.png"
+  //        alt="Tweeter"
+  //      />
+  //    </div>
+  //    <h3>Overview</h3>
+  //    <hr />
+  //    <p>  a social media for sharing quotes</p>
 
-     <h3>Technologies</h3>
-     <hr />
-     <p>Backend Stack: Firebase, express,algolia </p>
-     <p>Frontend Stack: React, Rematch(Redux abstraction layer) </p>
-     <div className="links">
-       <a
-         href="https://github.com/NateTheDev1/quick-note-app"
-         target="__blank"
-       >
-         GitHub
-       </a>
-       <a href="https://quick-note.vercel.app/" target="__blank">
-         Live Demo
-       </a>
-     </div>
-   </div>
-  }
+  //    <h3>Technologies</h3>
+  //    <hr />
+  //    <p>Backend Stack: Firebase, express,algolia </p>
+  //    <p>Frontend Stack: React, Rematch(Redux abstraction layer) </p>
+  //    <div className="links">
+  //      <a
+  //        href="https://github.com/NateTheDev1/quick-note-app"
+  //        target="__blank"
+  //      >
+  //        GitHub
+  //      </a>
+  //      <a href="https://quick-note.vercel.app/" target="__blank">
+  //        Live Demo
+  //      </a>
+  //    </div>
+  //  </div>
+  // }
 
   return (
     <div className="pj-root">
@@ -326,14 +297,13 @@ const Projects = () => {
       <div className="pg-content">
         <h1>Professional Work</h1>
         <SMARDIS_React_Native_App />
-        <Untagled_Cables />
         
         <h1>Projects</h1>
         <Origami_React_Native_App />
         <Tweeter />
         <Aafiya_Mafya_Merch_Store />
-        <Quotes />
-        <ElqouentDo />
+        {/* <Quotes />
+        <ElqouentDo /> */}
  
        
         
