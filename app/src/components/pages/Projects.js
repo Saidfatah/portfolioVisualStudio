@@ -69,7 +69,7 @@ const Projects = () => {
     ]
 
    return  <div className="project">
-      <h2>SMARDS reaact native app</h2>
+      <h2>SMARDS react native app</h2>
       <div className="image-container">
         <ImageSlider content={content} />
     
@@ -77,15 +77,12 @@ const Projects = () => {
       <h3>Overview</h3>
       <hr />
       <p>
-         this  a tracking app ,, it manages stocks and also has a feature where managers
-         create schedules for dlivery missions , each delivery mssion is assgned to a certain distrubutor
-         truck driver whch they have their own panel in the application they gt notifications when their is
-         a new mission for them their panel has a screen where they show clients products 
-         they can add products to carts and  
-         the app is not in the google play store nor is it appstore the company littermy wanted it just for their
-         50+ employees   
-         has a cahcing layer to optimise firebase reads 
-         has excel visualiztion and  exportation 
+         this is a dilivery/sales tracking , Stock managers can  create schedules for dilivery missions in advance , 
+         each delivery mission is assigned to a certain distrubutor
+         and the later have their own panel in the application they get notifications when thier is
+         a new mission for them   the app is not in the google play store nor is it appstore ,
+          its used internly within the company
+         .
       </p>
    
       <h3>Technologies</h3>
@@ -130,7 +127,6 @@ const Projects = () => {
         title:"Student profile screen",
       } 
     ]
-
         return  <div className="project">
         <h2>Origgami  reaact native app</h2>
         <div className="image-container">
@@ -139,8 +135,9 @@ const Projects = () => {
         <h3>Overview</h3>
         <hr />
         <p>
-          ths is an app for extra hours booking wth teahcers , 
-          thas a chat system imagestorage and a calender system.
+          this is an app for supplementary courses where students can book sessions with teachers , 
+          these sessons can be individual or in group format . teh app has thre difrent dashboadrs for each
+          user type  (student,teacher and admin)  
         </p>
 
         <h3>Technologies</h3>
@@ -206,7 +203,11 @@ const Projects = () => {
         <h3>Overview</h3>
         <hr />
         <p>
-          built his app in 4 days it consumes themoviedb API 
+         This project is built in about 5 days . 
+         The purpose of this project was to build an app with intuitive ui and ux that help  users discover popular and highly rated movies on the web.
+         It displays a scrolling grid of movie trailers, launches a details screen whenever a particular movie is selected, 
+         allows users to save favorites, play trailers, and read user reviews. 
+         This app consumes themoviedb API.
         </p>
 
         <h3>Technologies</h3>
@@ -238,8 +239,8 @@ const Projects = () => {
      <h3>Overview</h3>
      <hr />
      <p>
-       Afya mafiya  is a full stack merch store  app built in 4 days,
-       with a well oiled mobile design, I have integrated Stripe payments
+       Afya mafiya is a full stack merch store  app .
+       it has a well oiled mobile design,it also has an integrated Stripe payments system
        as well as order history.
      </p>
 
