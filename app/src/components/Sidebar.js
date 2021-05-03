@@ -6,6 +6,7 @@ import fileIcon from "../images/file_ico.svg";
 import githubIcon from "../images/github_ico.svg";
 import linkedinIcon from "../images/linkedin_ico.svg";
 import mailIcon from "../images/mail_ico.svg";
+import stackLogo from "../images/stackLogo.svg";
 
  
 const Sidebar = () => {
@@ -33,6 +34,11 @@ const Sidebar = () => {
       <div className="sb-item"  >
         <a href="mailto: said_designer@outlook.com"  >
           <img src={mailIcon} alt="LinkedIn" className="linkedin" />
+        </a>
+      </div>
+      <div className="sb-item"  >
+        <a href="https://meta.stackoverflow.com/users/13999386/سعيد"   target="__blank" >
+        <img src={stackLogo} alt="LinkedIn" className="linkedin" />
         </a>
       </div>
     </div>

@@ -47,6 +47,18 @@ const Contact = () => {
             <span className="bracket">;</span>
           </p>
           <p className="css-line">
+          stackoverflow:{" "}
+            <span className="css-value">
+              <a
+                href="https://stackoverflow.com/users/13999386/سعيد"
+                target="__blank"
+              >
+               https://stackoverflow.com/users/13999386/سعيد
+              </a>
+            </span>
+            <span className="bracket">;</span>
+          </p>
+          <p className="css-line">
             twitter:{" "}
             <span className="css-value">
               <a href="https://twitter.com/SaiduSenpay" target="__blank">
