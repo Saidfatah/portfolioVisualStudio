@@ -17,13 +17,6 @@ const HomeScreen = () => {
       <div className="toolbar">
         <img src={appleLogo} alt="apple logo" />
         <p className="title">{open ? "Visual Studio Code" : "Mac"}</p>
-        <p>File</p>
-        <p>Edit</p>
-        <p>Documents</p>
-        <p>Settings</p>
-        <p>Format</p>
-        <p>Help</p>
-        <p>Window</p>
       </div>
       <div className="app-menu">
         <button
