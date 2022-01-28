@@ -300,6 +300,40 @@ const Projects = () => {
       <CodeBar rowAmount={210} />
       <div className="pg-content">
         <h1>Professional Work</h1>
+
+        <div className="project">
+        <h2>Front end Engineer At Tribe platform since 2021 </h2>
+        <hr />
+        <p>
+           My work is mainly to maintain the current stable version of tribe platform , I fix bugs , I work closely 
+           an aweasome team to implemnt features and test them .
+        </p>
+
+        <h3>Technologies</h3>
+        <hr />
+        <p>
+          React , themeUI, Node js (API and SSR), Elastic Search, Redux , mongdodb , redis , Express 
+        </p>
+       
+      </div>
+
+       <div className="project">
+        <h2> Asus connect app project  </h2>
+        <hr />
+        <p>
+           one of the other projects I'm involved in as a front end engineer within tribe is the tribe-asus project , its a custom community built for asus for thier gaming phone ROG .
+           they provide the  designs and wireframes and we implement them . We built the app using react and redux, the app consumes 
+           the tribe API . The app is embedded within a webview in an android app . 
+        </p>
+
+        <h3>Technologies</h3>
+        <hr />
+        <p>
+          React, redux , themeUi , JAVA  
+        </p>
+       
+      </div>
+
         <SMARDIS_React_Native_App />
         
         <h1>Projects</h1>
