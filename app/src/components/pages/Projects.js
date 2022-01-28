@@ -321,7 +321,7 @@ const Projects = () => {
         <h2> Asus connect app project  </h2>
         <hr />
         <p>
-           one of the other projects I'm involved in as a front end engineer within tribe is the tribe-asus project , its a custom community built for asus for thier gaming phone ROG .
+           one of the other projects I&apos;m involved in as a front end engineer within tribe is the tribe-asus project , its a custom community built for asus for thier gaming phone ROG .
            they provide the  designs and wireframes and we implement them . We built the app using react and redux, the app consumes 
            the tribe API . The app is embedded within a webview in an android app . 
         </p>
