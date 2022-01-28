@@ -19,7 +19,7 @@ const About = () => {
           I am more than a web developer. I am an engineer that is passionate
           about designing, developing, and shipping production quality
           technology. I strive to bring ideas to life, let me work with you and
-          let us see what we can make! I am based out of Ouarzazate, Morroco and
+          let us see what we can make! I am currently working remotly at tribe community platform from Ouarzazate, Morroco and
           yes, it is hot here. I have been programming and designing games, apps,
           and programs since I was 16 and have a strong passion to create high
           quality applications.
