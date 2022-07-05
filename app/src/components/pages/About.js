@@ -2,7 +2,7 @@ import React from "react";
 import CodeBar from "../CodeBar";
 import "../../css/About.css";
 // import resume from "../../images/cur_resume.pdf";
-import myImage from "../../images/me.jpg";
+import myImage from "../../images/me.jpeg";
 
 const About = () => {
   return (
